@@ -1,23 +1,16 @@
-# food-Delivery-website
-A Food Delivery App Website built with React JS. Users can browse food items, add them to the cart, and place orders with a clean and responsive UI.
-Food Delivery App (React JS)
+# React + Vite
 
-## 🚀 Overview
-This is a **Food Delivery App Website** built using React JS.  
-Users can browse food items, add them to the cart, and place orders with a simple and responsive design.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌟 Features
-- Home Page with navigation bar and food categories
-- Food Menu Page with images, names, prices, and Add to Cart
-- Dynamic Cart Page (update quantity, remove items, total price)
-- Checkout Page with user details and order confirmation
-- Fully responsive design
+Currently, two official plugins are available:
 
-## 🛠️ Technologies Used
-- React JS
-- HTML5, CSS3
-- JavaScript (ES6+)
-- React Router for navigation
-- State management with React useState
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 📦 Folder Structure
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
