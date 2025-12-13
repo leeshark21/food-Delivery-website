@@ -1,0 +1,142 @@
+
+.Navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Navbar .logo{
+    width: 150px;
+}
+
+.Navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+
+
+.Navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.Navbar button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    cursor: pointer;
+    transition: 0.3s ;
+    border-radius: 20px;
+}
+
+.Navbar button:hover{
+    background-color: #e8e5e5;
+
+}
+
+
+.Navbar .active {
+    padding-bottom: 2px;
+    border-bottom: 2px solid #49557e;
+}
+
+.Navbar-menu li {
+    cursor: pointer;
+}
+
+.Navbar-search-icon{
+    position: relative;
+}
+
+.Navbar-search-icon .Dot {
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 20px;
+    padding: 0 6px;
+    background-color: tomato;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 999px;
+    box-shadow: 0 6px 14px rgba(0,0,0,0.12);
+    line-height: 1;
+    pointer-events: none;
+}
+
+
+
+
+@media(max-width:1050px) {
+    .navbar .logo{
+        width: 140px;
+    }
+
+    .Navbar-menu{
+        gap: 20px;
+        font-size: 17px;
+
+    }
+
+    .Navbar-right{
+        gap: 30px;
+    }
+
+    .Navbar-right img{
+        width: 22px;
+    }
+
+    .Navbar-right button{
+        padding: 8px 25px;
+    }
+}
+
+
+@media(max-width:900px) {
+    .navbar .logo{
+        width: 120px;
+    }
+
+    .Navbar-menu{
+        gap: 15px;
+        font-size: 16px;
+
+    }
+
+    .Navbar-right{
+        gap: 20px;
+    }
+
+    .Navbar-right img{
+        width: 20px;
+    }
+
+    .Navbar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width:750px) {
+   
+    .Navbar-menu{
+        display: none;
+
+    }
+
+  
+}
